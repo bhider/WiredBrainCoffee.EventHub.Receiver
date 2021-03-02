@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.EventHub.Receiver.Direct", "WiredBrainCoffee.EventHub.Receiver.Direct\WiredBrainCoffee.EventHub.Receiver.Direct.csproj", "{A46DE329-6EFD-4B3F-B692-86E9748660FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.EventHub.Model", "WiredBrainCoffee.EventHub.Model\WiredBrainCoffee.EventHub.Model.csproj", "{8ADBEDF2-A547-4CC6-84E8-F491A9BAA42F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.EventHub.Receiver.Processor", "WiredBrainCoffee.EventHub.Receiver.Processor\WiredBrainCoffee.EventHub.Receiver.Processor.csproj", "{76CD81A9-28E0-4C67-961B-F9AD86F127AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A46DE329-6EFD-4B3F-B692-86E9748660FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46DE329-6EFD-4B3F-B692-86E9748660FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46DE329-6EFD-4B3F-B692-86E9748660FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46DE329-6EFD-4B3F-B692-86E9748660FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADBEDF2-A547-4CC6-84E8-F491A9BAA42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADBEDF2-A547-4CC6-84E8-F491A9BAA42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADBEDF2-A547-4CC6-84E8-F491A9BAA42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADBEDF2-A547-4CC6-84E8-F491A9BAA42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CD81A9-28E0-4C67-961B-F9AD86F127AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CD81A9-28E0-4C67-961B-F9AD86F127AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CD81A9-28E0-4C67-961B-F9AD86F127AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CD81A9-28E0-4C67-961B-F9AD86F127AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2D95B51-75DB-4E80-A25D-20F671A500E1}
+	EndGlobalSection
+EndGlobal
